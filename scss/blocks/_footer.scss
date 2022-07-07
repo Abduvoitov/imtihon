@@ -1,0 +1,50 @@
+.footer {
+    background-color: #1B262F;
+}
+
+.footer__payapi {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.footer__href {
+    transition: transform ease 1s;
+}
+
+.footer__href:hover {
+    transform: scale(1.2); 
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__li {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.footer__li:hover {
+    color: #ffffff;
+}
+
+.footer__ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fooer__icon-svg {
+    margin-right: 15px;
+}

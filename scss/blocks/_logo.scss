@@ -1,0 +1,89 @@
+.logo {
+
+    padding-top: 50px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img-logo {
+    width: 135px;
+    height: 38px;
+    transition: transform ease 1s;
+}
+
+.logo__img-logo:hover {
+    transform: scale(1.2);  
+}
+
+.logo__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__navlist {
+    margin-top: 13px;
+    margin-left: 65px;
+}
+
+.logo__ullist {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.logo__list {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #989898;
+}
+
+.logo__list:hover{
+    color: #36536B;
+    
+}
+
+.logo__burger {
+    display: none;
+}
+
+.logo__button {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 24px;
+    background-color: #ba4270;
+}
+
+.logo__button:hover {
+    background: #DA6D97;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo__button{
+        display: none;
+    }
+
+    .logo__burger{
+        display: inline-block;
+        margin-top: 12px;
+    }
+
+    .logo__navlist {
+        display: none;
+    }
+}

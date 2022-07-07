@@ -1,0 +1,189 @@
+.personal-site {
+    padding-top: 100px;
+}
+
+.personal_ul {
+    display: flex;
+    text-align: center;
+    max-width: 1120px;
+}
+
+.personal__listone {
+    max-width: 350px;
+    list-style-type: none;
+}
+
+.personal__listone::before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    margin-left: 120px;
+    background-image: url("../../img/intro-many.png");
+    content: "";
+}
+
+.personal__listtwo {
+    max-width: 350px;
+    list-style-type: none;
+}
+
+.personal__listtwo::before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    margin-left: 120px;
+    background-image: url("../../img/inrto-fx.png");
+    content: "";
+}
+
+.personal__listthri {
+    max-width: 350px;
+    list-style-type: none;
+}
+
+.personal__listthri::before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    margin-left: 120px;
+    background-image: url("../../img/intro-clic.png");
+    content: "";
+}
+
+.personal__h {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+}
+
+.personal__p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+}
+
+@media only screen and (max-width:1000px) {
+    .personal__listthri {
+        max-width: 300px;
+        list-style-type: none;
+    }
+
+    .personal__listone {
+        max-width: 300px;
+        list-style-type: none;
+    }
+
+    .personal__listtwo {
+        max-width: 300px;
+        list-style-type: none;
+    }
+    
+}
+
+@media only screen and (max-width:900px) {
+
+    .personal__listthri::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 40px;
+        background-image: url("../../img/intro-clic.png");
+        content: "";
+    }
+
+    .personal__listone::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 40px;
+        background-image: url("../../img/intro-many.png");
+        content: "";
+    }
+
+    .personal__listtwo::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 40px;
+        background-image: url("../../img/inrto-fx.png");
+        content: "";
+    }
+    
+    .personal__listthri {
+        max-width: 300px;
+        list-style-type: none;
+    }
+
+    .personal__listone {
+        max-width: 300px;
+        list-style-type: none;
+    }
+
+    .personal__listtwo {
+        max-width: 300px;
+        list-style-type: none;
+    }
+    
+}
+
+@media only screen and (max-width:600px) {
+
+    .personal_ul {
+        display: block;
+        text-align: center;
+        max-width: 1120px;
+    }
+    .personal__listthri {
+        max-width: 350px;
+        list-style-type: none;
+    }
+
+    .personal__listone {
+        max-width: 350px;
+        list-style-type: none;
+    }
+
+    .personal__listtwo {
+        max-width: 350px;
+        list-style-type: none;
+    }
+
+    .personal__listthri::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 100px;
+        background-image: url("../../img/intro-clic.png");
+        content: "";
+    }
+
+    .personal__listone::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 100px;
+        background-image: url("../../img/intro-many.png");
+        content: "";
+    }
+
+    .personal__listtwo::before {
+        display: block;
+        width: 106px;
+        height: 106px;
+        margin-left: 100px;
+        background-image: url("../../img/inrto-fx.png");
+        content: "";
+    }
+    
+    
+}
